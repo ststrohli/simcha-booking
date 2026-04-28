@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+
 /**
  * Expert planning advice service powered by Gemini.
  * Uses gemini-3-pro-preview for advanced reasoning and specialized domain knowledge.
