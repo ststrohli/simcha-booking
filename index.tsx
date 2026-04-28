@@ -1,3 +1,11 @@
+export enum VendorCategory {
+  VENUE = 'VENUE',
+  CATERING = 'CATERING',
+  MUSIC = 'MUSIC',
+  PHOTOGRAPHY = 'PHOTOGRAPHY',
+  JUDAICA = 'JUDAICA',
+  OFFICIANT = 'OFFICIANT'
+}
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -13,4 +21,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-export enum VendorCategory { VENUE = 'VENUE', CATERING = 'CATERING', MUSIC = 'MUSIC', PHOTOGRAPHY = 'PHOTOGRAPHY', JUDAICA = 'JUDAICA', OFFICIANT = 'OFFICIANT' }
