@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { initializeFirestore, doc, getDocFromServer } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-import firebaseConfig from "../firebase-applet-config.json";
+import firebaseConfig from "./firebase-applet-config.json";
 
 // Use values from firebase-applet-config.json as the source of truth,
 // but fall back to environment variables if config is missing or likely stale.
