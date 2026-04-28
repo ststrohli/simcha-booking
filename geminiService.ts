@@ -1,4 +1,4 @@
- "@google/generative-ai": "^0.11.0",
+import { GoogleGenAI } from "@google/genai";
 
 /**
  * Expert planning advice service powered by Gemini.
