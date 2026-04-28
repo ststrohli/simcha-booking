@@ -13,3 +13,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+export enum VendorCategory { VENUE = 'VENUE', CATERING = 'CATERING', MUSIC = 'MUSIC', PHOTOGRAPHY = 'PHOTOGRAPHY', JUDAICA = 'JUDAICA', OFFICIANT = 'OFFICIANT' }
