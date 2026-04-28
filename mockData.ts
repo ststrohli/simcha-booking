@@ -1,5 +1,5 @@
 
-import { Vendor, VendorCategory, Booking } from './';
+import { Vendor, Booking } from './';
 
 // Helper to generate date strings relative to today
 const getFutureDate = (days: number): string => {
