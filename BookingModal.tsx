@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, Calendar, User, Mail, MessageSquare, PartyPopper, MapPin, Clock, Tag, Check, AlertTriangle, Hash } from 'lucide-react';
-import { Vendor, SelectedService, VendorCategory } from './';
+import { Vendor, SelectedService } from './';
 
 interface BookingModalProps {
   isOpen: boolean;
